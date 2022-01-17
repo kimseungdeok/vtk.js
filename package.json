@@ -1,0 +1,27 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "vtk example",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --progress --mode=production",
+    "dev": "webpack-dev-server --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimseungdeok/vtk.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimseungdeok/vtk.js/issues"
+  },
+  "homepage": "https://github.com/kimseungdeok/vtk.js#readme",
+  "dependencies": {
+    "vtk.js": "^22.0.0"
+  },
+  "devDependencies": {
+    "kw-web-suite": "^11.1.0"
+  }
+}
