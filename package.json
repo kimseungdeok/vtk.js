@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/kimseungdeok/vtk.js#readme",
   "dependencies": {
+    "@kitware/vtk.js": "^22.0.0",
     "vtk.js": "^22.0.0"
   },
   "devDependencies": {
