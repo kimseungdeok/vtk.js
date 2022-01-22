@@ -1,7 +1,9 @@
 import vtkGenericRenderWindow from 'vtk.js/Sources/Rendering/Misc/GenericRenderWindow';
-import vtkConeSource from 'vtk.js/Sources/Filters/Sources/ConeSource';
+
 import vtkActor from 'vtk.js/Sources/Rendering/Core/Actor';
 import vtkMapper from 'vtk.js/Sources/Rendering/Core/Mapper';
+
+import vtkConeSource from 'vtk.js/Sources/Filters/Sources/ConeSource';
 
 const container = document.querySelector('#container');
 

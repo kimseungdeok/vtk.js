@@ -6,6 +6,12 @@
   "scripts": {
     "build": "webpack --progress --mode=production",
     "dev": "webpack-dev-server --mode=development",
+    "dev:cone": "cone.js webpack-dev-server --mode=development",
+    "dev:cone-filter": "EXAMPLE=cone-filter.js webpack-dev-server --mode=development",
+    "dev:volume": "EXAMPLE=volume.js webpack-dev-server --mode=development",
+    "dev:volume-transfer": "EXAMPLE=volume-transfer.js webpack-dev-server --mode=development",
+    "dev:image-slicing": "EXAMPLE=image-slicing.js webpack-dev-server --mode=development",
+    "dev:widgets": "EXAMPLE=widgets.js webpack-dev-server --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +29,7 @@
     "vtk.js": "^22.0.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "kw-web-suite": "^11.1.0"
   }
 }
